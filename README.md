@@ -11,17 +11,25 @@
 npm run start:dev
 ```
 1. Clonar el repositorio
+
 2. Ejecutar
 ```
 npm install 
 ```
+
 3. Tener Nest CLI instalado
 ```
 npm i -g nestjs/cli
 ```
+
 4. Levantar la baser de datos
 ```
 docker-compose up -d
+```
+
+5. Recosntruir la base de datos con la semilla
+```
+http://localhost:3000/api/v2/seed
 ```
 
 ## Stack usado 
